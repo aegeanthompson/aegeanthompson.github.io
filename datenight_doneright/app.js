@@ -1,40 +1,42 @@
 $( () => {
 
-// const headerItems = () => {}
-
   const $openBtn = $('#openModal');
   const $modal = $('#modal');
   const $closeBtn = $('#close');
-
+  const $openBtn2 = $('#buttonIn');
+  const $modal2 = $('#modal2');
+  const $closeBtn2 = $('#close2');
 
   const openModal = () => {
     $modal.css('display', 'block');
+  }
+
+  const openModal2 = () => {
+    $modal.css('display', 'none');
+    $modal2.css('display', 'block');
   }
 
   const closeModal = () => {
     $modal.css('display', 'none');
   }
 
+  const closeModal2 = () => {
+    $modal2.css('display', 'none');
+  }
+
+
+
   $openBtn.on('click', openModal);
 
   $closeBtn.on('click', closeModal);
 
+  $openBtn2.on('click', openModal2);
 
-// $.ajax({
-//             url:'https://unogs-unogs-v1.p.rapidapi.com/aaapi.cgi?q=get:new7:US&p=1&t=ns&st=adv',
-//             type = 'GET',
-//             dataType = 'json',
-//             contentType: 'application/json; charset=utf-8',
-//             beforeSend: setHeader;
-//         }).done(
-//             (data) => {
-//               console.log("it's working");
-//                 // $("#title").html(data.Title);
-//                 // $("#year").html(data.Year);
-//                 // $("#rated").html(data.Rated);
-//             },
-//             (error) => {
-//                 console.log(error);
-//             }
-//         );
+  $closeBtn2.on('click', closeModal2);
+
+
+$.ajax({
+
+            }
+        );
     });

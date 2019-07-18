@@ -54,7 +54,7 @@ button {
   font-size: 1.4em;
 }
 
-#modal {
+#modal, #modal2 {
 	background-color: rgba(0,0,0,0.4);
 	position: fixed;
 	top: 0;
@@ -66,7 +66,8 @@ button {
   display: none;
 }
 
-#modal-textbox {
+
+#modal-textbox, #modal-textbox2 {
 	background-color: ghostwhite;
 	height: 350px;
 	width: 550px;
@@ -79,7 +80,8 @@ button {
   align-items: center;
 }
 
-#modal-textbox > h1 {
+
+#modal-textbox > h1, #modal-textbox2 > h1 {
   font-size: 2em;
   text-align: center;
   padding-bottom: 1em;
@@ -87,8 +89,9 @@ button {
   padding-right: 1em;
 }
 
-#modal-textbox > button {
-  padding-bottom: 0.5em;
+#modal-textbox > button, #modal-textbox2 > button {
+  padding: 0.5em;
+  width: 30%;
   text-align: center;
 }
 
