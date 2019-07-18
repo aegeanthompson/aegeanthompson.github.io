@@ -70,8 +70,29 @@ $( () => {
 
 
 
-// $.ajax({
-//
-//             }
-//         );
+
+  $('#comedy').on('click', (event) => {
+    $('.container').hide();
+    $('#comedyH1').css("display", "block");
+
+    $.ajax({
+      url: 'http://www.omdbapi.com/?t=booksmart&apikey=863b543e',
+    }).then(
+      (data) => {
+        $("#poster").append("<img src='" + data.Poster + "'></img>");
+        $("#title").html("Title: " + data.Title);
+        $("year").html("Year: " + data.Year);
+        $("#rated").html("Rated: " + data.Rated);
+        $("#actors").html("Actors: " + data.Actors);
+        $("#plot").html("Plot: " + data.Plot);
+        $("#metascore").html("Metascore: " + data.Metascore);
+
+      },
+      (error) => {
+        console.log(error);
+      }
+    );
+  });
+
+
     });

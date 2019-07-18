@@ -101,3 +101,25 @@ button {
 a {
   padding-top: 0.75em;
 }
+
+dd {
+  font-family: 'Dosis', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #EA277A;
+  padding-bottom: 1em;
+}
+
+dd > img {
+  width: 25%;
+  height: 25%;
+  padding-bottom: 1em;
+}
+
+#comedyH1 {
+  display: none;
+  text-align: center;
+  padding-bottom: 1em;
+  padding-top: 2em;
+}
