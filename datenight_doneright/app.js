@@ -6,10 +6,12 @@ $( () => {
 
   const $openBtn2 = $('#buttonIn');
   const $modal2 = $('#modal2');
+  const $backBtn = $('#back');
   const $closeBtn2 = $('#close2');
 
   const $openBtn3 = $('#buttonMovie');
   const $modal3 = $('#modal3');
+  const $backBtn2 = $('#back2');
   const $closeBtn3 = $('#close3');
 
   const openModal = () => {
@@ -30,6 +32,16 @@ $( () => {
     $modal.css('display', 'none');
   }
 
+  const goBack = () => {
+    $modal2.css('display', 'none');
+    $modal.css('display', 'block');
+  }
+
+  const goBack2 = () => {
+    $modal3.css('display', 'none');
+    $modal2.css('display', 'block');
+  }
+
   const closeModal2 = () => {
     $modal2.css('display', 'none');
   }
@@ -46,9 +58,13 @@ $( () => {
 
   $openBtn2.on('click', openModal2);
 
+  $backBtn.on('click', goBack);
+
   $closeBtn2.on('click', closeModal2);
 
   $openBtn3.on('click', openModal3);
+
+  $backBtn2.on('click', goBack2);
 
   $closeBtn3.on('click', closeModal3);
 
