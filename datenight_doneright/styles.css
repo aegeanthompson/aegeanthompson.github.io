@@ -1,6 +1,6 @@
 body {
   background-color: ghostwhite;
-
+  border: 3px solid #EA277A;
 }
 
 h1 {
@@ -17,6 +17,7 @@ h2 {
 
 p {
   font-family: 'Dosis', sans-serif;
+  font-size: 1.5em;
 }
 
 .container {
@@ -27,7 +28,6 @@ p {
   color: #EA277A;
   background-color: ghostwhite;
   padding: 2em;
-  border: 3px solid #EA277A;
 }
 
 .container > img {
@@ -117,9 +117,51 @@ dd > img {
   padding-bottom: 1em;
 }
 
-#comedyH1 {
+.comedyH1 {
   display: none;
   text-align: center;
   padding-bottom: 1em;
   padding-top: 2em;
+  margin: 0;
+  color: #EA277A;
+}
+.recipe1 {
+  display: flex;
+  justify-content: center;
+  /* padding: 2em; */
+
+  flex-direction: column;
+}
+
+
+.recipe1top > img {
+  width: 30%;
+  height: 30%;
+  /* border: 3px solid #EA277A; */
+  padding: 1em;
+}
+
+}
+
+.recipe1 > p {
+  padding: 2em;
+}
+
+.recipe1top {
+  display: flex;
+  justify-content: center;
+
+}
+
+.recipe1topRight > h2 {
+    font-size: 2em;
+}
+
+.recipe1topRight > p {
+    font-size: 1em;
+}
+
+.recipe1topRight {
+  display: flex;
+  flex-direction: column;
 }

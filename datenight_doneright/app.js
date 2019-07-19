@@ -73,7 +73,7 @@ $( () => {
 
   $('#comedy').on('click', (event) => {
     $('.container').hide();
-    $('#comedyH1').css("display", "block");
+    $('.comedyH1').css("display", "block");
 
     $.ajax({
       url: 'http://www.omdbapi.com/?t=booksmart&apikey=863b543e',
