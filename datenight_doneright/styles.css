@@ -124,13 +124,18 @@ dd > img {
   margin: 0;
   color: #EA277A;
 }
+
+.recipe1topRight > a, .recipe2topRight > a {
+  color: ghostwhite;
+}
+
 .recipe1, .recipe2 {
   display: flex;
   justify-content: center;
   flex-direction: row;
   background-color: #EA277A;
   padding: 2em;
-  /* display: none; */
+  display: none;
 
 }
 
@@ -139,12 +144,12 @@ dd > img {
   flex-direction: row;
 }
 
-
-.recipe1topLeft > img {
-  width: 35%;
+/*
+.recipe1topRight > img {
+  width: 20%;
   padding: 1em;
   padding-top: 10em;
-}
+} */
 
 }
 
@@ -153,12 +158,13 @@ dd > img {
   color: ghostwhite;
 }
 
-.recipe1topRight, .recipe2top  {
+.recipe1top, .recipe2top  {
   display: flex;
   flex-direction: column;
   justify-content: center;
   border: 3px dotted ghostwhite;
-    padding: 2em;
+  padding: 2em;
+
 
 }
 
@@ -175,6 +181,8 @@ dd > img {
 .recipe1topRight, .recipe2topRight {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 
