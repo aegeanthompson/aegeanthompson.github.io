@@ -112,8 +112,7 @@ dd {
 }
 
 dd > img {
-  width: 25%;
-  height: 25%;
+  width: 60%;
   padding-bottom: 1em;
 }
 
@@ -128,40 +127,65 @@ dd > img {
 .recipe1 {
   display: flex;
   justify-content: center;
-  /* padding: 2em; */
-
   flex-direction: column;
+  background-color: #EA277A;
+  display: none;
+
 }
 
 
 .recipe1top > img {
-  width: 30%;
-  height: 30%;
-  /* border: 3px solid #EA277A; */
+  width: 15%;
+  height: 15%;
   padding: 1em;
+  padding-top: 10em;
 }
 
 }
 
-.recipe1 > p {
+.recipe1 > p, .recipe2 > p  {
   padding: 2em;
+  color: ghostwhite;
 }
 
-.recipe1top {
+.recipe1top, .recipe2top  {
   display: flex;
   justify-content: center;
 
 }
 
-.recipe1topRight > h2 {
+.recipe1topRight > h2, .recipe2topRight > h2 {
     font-size: 2em;
+    color: ghostwhite;
 }
 
-.recipe1topRight > p {
+.recipe1topRight > p, .recipe2topRight > p {
     font-size: 1em;
+    color: ghostwhite;
 }
 
-.recipe1topRight {
+.recipe1topRight, .recipe2topRight {
   display: flex;
   flex-direction: column;
+}
+
+
+dl {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+#plot {
+  width: 50%;
+}
+
+#chooseAgain {
+  align-self: flex-end;
+  color: #EA277A;
+  padding: 1em;
+  font-weight: bold;
+  font-size: 1em;
+
 }

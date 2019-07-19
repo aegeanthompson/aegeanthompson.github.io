@@ -14,6 +14,12 @@ $( () => {
   const $backBtn2 = $('#back2');
   const $closeBtn3 = $('#close3');
 
+  const allComedy = ["http://www.omdbapi.com/?t=booksmart&apikey=863b543e", "http://www.omdbapi.com/?t=sword_of_trust&apikey=863b543e", "http://www.omdbapi.com/?t=stan_&_ollie&apikey=863b543e", "http://www.omdbapi.com/?t=always_be_my_maybe&apikey=863b543e", "http://www.omdbapi.com/?t=wild_nights_with_emily&apikey=863b543e", " http://www.omdbapi.com/?t=plus_one&apikey=863b543e&y=2019"];
+
+const randomNum = () => {
+  return Math.floor(Math.random() * Math.floor(5));
+}
+
   const openModal = () => {
     $modal.css('display', 'block');
   }
@@ -73,10 +79,11 @@ $( () => {
 
   $('#comedy').on('click', (event) => {
     $('.container').hide();
+    $(".comedy").show();
     $('.comedyH1').css("display", "block");
 
     $.ajax({
-      url: 'http://www.omdbapi.com/?t=booksmart&apikey=863b543e',
+      url: allComedy[randomNum(5)],
     }).then(
       (data) => {
         $("#poster").append("<img src='" + data.Poster + "'></img>");
@@ -93,6 +100,7 @@ $( () => {
       }
     );
   });
+
 
 
     });
