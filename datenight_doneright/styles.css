@@ -1,7 +1,7 @@
 body {
-  border: 3px solid #EA277A;
+  border: 6px groove ghostwhite;
   background: #FF512F;
-background: -webkit-linear-gradient(to right, #DD2476, #FF512F);  
+background: -webkit-linear-gradient(to right, #DD2476, #FF512F);
 background: linear-gradient(to right, #DD2476, #FF512F);
 
 }
@@ -9,7 +9,7 @@ background: linear-gradient(to right, #DD2476, #FF512F);
 h1 {
   font-family: 'Fascinate Inline', cursive;
   margin: 0;
-  font-size: 3em;
+  font-size: 5em;
   color: ghostwhite;
 }
 
@@ -33,24 +33,36 @@ p {
   padding: 2em;
 }
 
-.container > h1 {
-  align-self: flex-end;
+
+.banner > img {
+  width: 45%;
+  border-radius: 4em;
+  align-self: flex-start;
+
 }
 
-.container > img {
-  width: 70%;
-  height: 10%;
-  padding-bottom: 3em;
-  border-radius: 1em;
-
+.bannerRight > p {
+  width: 80%;
+  align-self: flex-end;
 }
 
 .container > p {
   width: 55%;
   text-align: center;
   padding-top: 1em;
+  color: ghostwhite;
 }
 
+.banner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.bannerRight {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
 button {
   width: 20%;
   height: 15%;
@@ -97,6 +109,7 @@ button {
   padding-bottom: 1em;
   padding-left: 1em;
   padding-right: 1em;
+  color: #EA277A;
 }
 
 #modal-textbox > button, #modal-textbox2 > button, #modal-textbox3 > button {
