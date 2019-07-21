@@ -1,13 +1,16 @@
 body {
-  background-color: ghostwhite;
   border: 3px solid #EA277A;
+  background: #FF512F;
+background: -webkit-linear-gradient(to right, #DD2476, #FF512F);  
+background: linear-gradient(to right, #DD2476, #FF512F);
+
 }
 
 h1 {
   font-family: 'Fascinate Inline', cursive;
   margin: 0;
   font-size: 3em;
-  color: #EA277A;
+  color: ghostwhite;
 }
 
 h2 {
@@ -25,9 +28,13 @@ p {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  color: #EA277A;
-  background-color: ghostwhite;
+  color: ghostwhite;
+  /* background-color: ghostwhite; */
   padding: 2em;
+}
+
+.container > h1 {
+  align-self: flex-end;
 }
 
 .container > img {
@@ -142,15 +149,6 @@ dd > img {
 .recipe1top {
   display: flex;
   flex-direction: row;
-}
-
-/*
-.recipe1topRight > img {
-  width: 20%;
-  padding: 1em;
-  padding-top: 10em;
-} */
-
 }
 
 .recipe1 > p, .recipe2 > p  {
