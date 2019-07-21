@@ -1,8 +1,8 @@
 body {
   border: 6px groove ghostwhite;
   background: #FF512F;
-background: -webkit-linear-gradient(to right, #DD2476, #FF512F);
-background: linear-gradient(to right, #DD2476, #FF512F);
+  background: -webkit-linear-gradient(to right, #DD2476, #FF512F);
+  background: linear-gradient(to right, #DD2476, #FF512F);
 
 }
 
@@ -14,7 +14,8 @@ h1 {
 }
 
 h2 {
-  font-family: 'Princess Sofia', cursive;
+  font-family: 'League Script', cursive;
+  font-size: 2.5em;
 
 }
 
@@ -63,14 +64,23 @@ p {
   justify-content: flex-end;
   flex-direction: column;
 }
+
+.bannerRight > button {
+  background: #FF512F;
+  width: 30%;
+  height: 40%;
+}
 button {
-  width: 20%;
+  width: 30%;
   height: 15%;
-  background-color: #EA277A;
   color: ghostwhite;
-  border-radius: 1em;
-  font-family: 'Princess Sofia', cursive;
+  border: 1px grooved;
+  /* border-radius: 1em; */
+  font-family: 'Dosis', cursive;
   font-size: 1.4em;
+  background: #FF512F;
+  background: -webkit-linear-gradient(to right, #DD2476, #FF512F);
+  background: linear-gradient(to right, #DD2476, #FF512F);
 }
 
 #modal, #modal2, #modal3 {
@@ -120,19 +130,25 @@ button {
 
 a {
   padding-top: 0.75em;
+  color: #FF512F;;
 }
+/* dl {
+  display: flex;
+  flex-direction: row;
+} */
 
 dd {
   font-family: 'Dosis', sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #EA277A;
+  color: ghostwhite;
   padding-bottom: 1em;
 }
 
 dd > img {
-  width: 60%;
+  width: 16em;
+  height: 20em;
   padding-bottom: 1em;
 }
 
@@ -142,7 +158,7 @@ dd > img {
   padding-bottom: 1em;
   padding-top: 2em;
   margin: 0;
-  color: #EA277A;
+  color: ghostwhite;
 }
 
 .recipe1topRight > a, .recipe2topRight > a {
@@ -153,7 +169,7 @@ dd > img {
   display: flex;
   justify-content: center;
   flex-direction: row;
-  background-color: #EA277A;
+  background-color: #FF512F;
   padding: 2em;
   display: none;
 
@@ -180,15 +196,18 @@ dd > img {
 }
 
 .recipe1topRight > h2, .recipe2topRight > h2 {
-    font-size: 2em;
+    font-size: 4em;
     color: ghostwhite;
 }
 
 .recipe1topRight > p, .recipe2topRight > p {
-    font-size: 1em;
+    font-size: 1.5em;
     color: ghostwhite;
 }
 
+.recipeHeader {
+  font-size: 0.5em;
+}
 .recipe1topRight, .recipe2topRight {
   display: flex;
   flex-direction: column;
@@ -196,6 +215,9 @@ dd > img {
   justify-content: center;
 }
 
+.recipe1topRight > img, .recipe2topRight > img {
+  border-radius: 4em;
+}
 
 dl {
   display: flex;
@@ -210,9 +232,29 @@ dl {
 
 #chooseAgain {
   align-self: flex-end;
-  color: #EA277A;
+  color: ghostwhite;
   padding: 1em;
   font-weight: bold;
   font-size: 1em;
 
+}
+
+.allMovieData {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.poster {
+  display: flex;
+  align-items: flex-end;
+  padding-left: 5em;
+}
+
+.movieDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
 }

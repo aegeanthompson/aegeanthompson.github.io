@@ -169,6 +169,7 @@ const randomNumFood = () => {
     $('.container').hide();
     $(".comedy").show();
     $('.comedyH1').css("display", "block");
+    // $('#$modal3').hide();
     $(allFood[randomNumFood()]).css("display", "block");
 
     $.ajax({
