@@ -17,6 +17,8 @@ $( () => {
 
   const allComedy = ["http://www.omdbapi.com/?t=booksmart&apikey=863b543e", "http://www.omdbapi.com/?t=sword_of_trust&apikey=863b543e", "http://www.omdbapi.com/?t=stan_&_ollie&apikey=863b543e", "http://www.omdbapi.com/?t=always_be_my_maybe&apikey=863b543e", "http://www.omdbapi.com/?t=wild_nights_with_emily&apikey=863b543e", " http://www.omdbapi.com/?t=plus_one&apikey=863b543e&y=2019"];
 
+  const allDrama = ["http://www.omdbapi.com/?t=the_farewell&apikey=863b543e&y=2019", " http://www.omdbapi.com/?t=APOLLO_11&apikey=863b543e&y=2019", "http://www.omdbapi.com/?t=THE_AFTERMATH&apikey=863b543e&y=2019", "http://www.omdbapi.com/?t=THE_LION_KING&apikey=863b543e&y=2019", "http://www.omdbapi.com/?t=THE_SOUVENIR&apikey=863b543e&y=2019", "http://www.omdbapi.com/?t=GLASS&apikey=863b543e&y=2019"];
+
   const allFood = [".recipe1", ".recipe2"];
 
 const randomNumMovies = () => {
@@ -109,6 +111,29 @@ const randomNumFood = () => {
     );
   });
 
+  $('#drama').on('click', (event) => {
+    $('.container').hide();
+    $(".comedy").show();
+    $('.comedyH1').css("display", "block");
+    $(allFood[randomNumFood()]).css("display", "block");
 
+    $.ajax({
+      url: allDrama[randomNumMovies()],
+    }).then(
+      (data) => {
+        $("#poster").append("<img src='" + data.Poster + "'></img>");
+        $("#title").html("Title: " + data.Title);
+        $("year").html("Year: " + data.Year);
+        $("#rated").html("Rated: " + data.Rated);
+        $("#actors").html("Actors: " + data.Actors);
+        $("#plot").html("Plot: " + data.Plot);
+        $("#metascore").html("Metascore: " + data.Metascore);
+
+      },
+      (error) => {
+        console.log(error);
+      }
+    );
+  });
 
     });
