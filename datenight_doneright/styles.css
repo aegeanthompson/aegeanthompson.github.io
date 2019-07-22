@@ -161,10 +161,16 @@ dd > img {
   padding-bottom: 0.5em;
   margin: 0;
   color: #DED0D8;
+  font-size: 4em;
+  padding-bottom: 0.5em;
 }
 
 .recipe1topRight > a, .recipe2topRight > a {
   color: ghostwhite;
+}
+
+.recipeBottomLeft > a, .recipe2BottomLeft > a {
+  font-size: 1em;
 }
 
 .recipe1, .recipe2 {
@@ -177,10 +183,6 @@ dd > img {
 
 }
 
-.recipe1top {
-  display: flex;
-  flex-direction: row;
-}
 
 .recipe1 > p, .recipe2 > p  {
   padding: 2em;
@@ -198,12 +200,12 @@ dd > img {
 }
 
 .recipe1topRight > h2, .recipe2topRight > h2 {
-    font-size: 4em;
+    font-size: 3em;
     color: ghostwhite;
 }
 
 .recipe1topRight > p, .recipe2topRight > p {
-    font-size: 1.5em;
+    font-size: 1;
     color: ghostwhite;
 }
 
@@ -220,6 +222,8 @@ dd > img {
   padding-bottom: 1em;
 }
 
+
+
 dl {
   display: flex;
   justify-content: center;
@@ -227,7 +231,7 @@ dl {
   align-items: center;
 }
 
-#plot {
+#plot, #actors {
   width: 50%;
 }
 
@@ -243,13 +247,12 @@ dl {
 .allMovieData {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   align-items: center;
 }
 
-.poster {
-  display: flex;
-  align-items: flex-end;
-  padding-left: 5em;
+#poster {
+  padding-left: 20em;
 }
 
 .movieDetails {
@@ -270,20 +273,31 @@ dl {
   font-size: 3em;
 }
 
-.recipeBottom {
+.recipeBottom, .recipe2Bottom {
   display: flex;
   flex-direction: row;
 }
 
-.recipeBottomLeft {
+.recipeBottomLeft, .recipe2BottomLeft {
   align-self: flex-start;
   border: 2px dotted ghostwhite;
 }
 
-.recipeBottomRight {
+.recipeBottomRight, .recipe2BottomRight {
   align-self: center;
   justify-content: center;
   padding-left: 2em;
+}
+
+.recipeBottomLeft > p, .recipe2BottomLeft > p {
+  text-align: center;
+  font-size: 1.5em;
+  padding-left: 1.5em;
+}
+
+.recipeBottomRight > p, .recipe2BottomRight > p {
+  font-size: 2em;
+  padding-top: 1em;
 }
 
  @media (max-width: 600px) {
@@ -321,10 +335,12 @@ dl {
    .allMovieData {
      flex-direction: column;
    }
+   #poster {
+     padding: 0;
+   }
    #poster > img {
      align-self: center;
      justify-content: center;
-     padding-right: 5.5em;
    }
    .recipeIntro > h1 {
      font-size: 2em;
@@ -334,35 +350,38 @@ dl {
      width: 75%;
    }
    .movieDetails {
+     font-size: 1em;
+   }
+   .movieDetails {
      text-align: center;
    }
    .recipe1topRight > h2, .recipe2topRight > h2 {
      font-size: 2em;
    }
-   .recipeBottomLeft > img {
+   .recipeBottomLeft > img, .recipe2BottomLeft > img {
      width: 100%;
    }
-   .recipe1topRight > a, .recipe2topRight > a {
-     font-size: 1em;
+   .recipeBottomLeft > a, .recipe2BottomLeft > a {
+     font-size: 2em;
    }
-   .recipeBottomLeft {
+   .recipeBottomLeft, .recipe2BottomLeft {
      text-align: center;
      font-size: 0.5em;
    }
    #modal-textbox > h1, #modal-textbox2 > h1, #modal-textbox3 > h1 {
      font-size: 1.5em;
    }
-   .recipeBottom {
+   .recipeBottom, .recipe2Bottom {
      flex-direction: column;
    }
 
-   .recipeBottomLeft > p {
+   .recipeBottomLeft > p, .recipe2BottomLeft > p {
      text-align: center;
      font-size: 2em;
      padding-left: 1.5em;
    }
 
-   .recipeBottomRight > p {
+   .recipeBottomRight > p, .recipe2BottomRight > p {
      font-size: 1em;
      padding-top: 1em;
    }
