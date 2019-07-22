@@ -69,8 +69,8 @@ p {
 }
 
 .bannerRight > button {
-  width: 60%;
-  height: 50%;
+  width: 30%;
+  height: 15%;
   border-radius: 1em;
   align-self: center;
   font-size: 2.5em;
@@ -115,7 +115,8 @@ button {
 }
 
 #modal-textbox3 {
-  padding: 2em;
+padding-top: 1.5em;
+padding-bottom: 1.5em;
 }
 
 #modal-textbox > h1, #modal-textbox2 > h1, #modal-textbox3 > h1 {
@@ -312,6 +313,8 @@ dl {
    }
    .bannerRight > button {
      font-size: 2em;
+       width: 50%;
+       height: 25%;
    }
    .comedyH1 {
      font-size: 2em;
@@ -338,9 +341,16 @@ dl {
      font-size: 2em;
    }
    .recipeBottomLeft > img {
-     width: 30%;
+     width: 100%;
    }
    .recipe1topRight > a, .recipe2topRight > a {
      font-size: 1em;
+   }
+   .recipeBottomLeft {
+     text-align: center;
+     font-size: 0.5em;
+   }
+   #modal-textbox > h1, #modal-textbox2 > h1, #modal-textbox3 > h1 {
+     font-size: 1.5em;
    }
  }
