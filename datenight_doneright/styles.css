@@ -11,7 +11,7 @@ h1 {
   margin: 0;
   font-size: 5em;
   color: ghostwhite;
-  /* color: #DED0D8; */
+  text-align: center;
 }
 
 h2 {
@@ -310,17 +310,37 @@ dl {
      align-self: center;
      width: 75%;
    }
+   .bannerRight > button {
+     font-size: 2em;
+   }
    .comedyH1 {
      font-size: 2em;
    }
    .allMovieData {
      flex-direction: column;
-     justify-content:
    }
-   .poster {
+   #poster > img {
      align-self: center;
+     justify-content: center;
+     padding-right: 5.5em;
    }
    .recipeIntro > h1 {
      font-size: 2em;
+     padding-top: 1em;
+   }
+   #plot {
+     width: 75%;
+   }
+   .movieDetails {
+     text-align: center;
+   }
+   .recipe1topRight > h2, .recipe2topRight > h2 {
+     font-size: 2em;
+   }
+   .recipeBottomLeft > img {
+     width: 30%;
+   }
+   .recipe1topRight > a, .recipe2topRight > a {
+     font-size: 1em;
    }
  }
