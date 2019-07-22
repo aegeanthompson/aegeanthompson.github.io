@@ -69,8 +69,8 @@ p {
 }
 
 .bannerRight > button {
-  width: 30%;
-  height: 15%;
+  width: 6em;
+  height: 2em;
   border-radius: 1em;
   align-self: center;
   font-size: 2.5em;
@@ -104,7 +104,7 @@ button {
 #modal-textbox, #modal-textbox2, #modal-textbox3 {
 	background-color: ghostwhite;
 	height: 350px;
-	width: 550px;
+	width: 500px;
 	border-radius: 2px;
   margin: 150px auto;
 	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
@@ -132,11 +132,12 @@ padding-bottom: 1.5em;
   padding: 0.5em;
   width: 30%;
   text-align: center;
+  font-size: 1.2em;
 }
 
 a {
   padding-top: 0.75em;
-  color: #FF512F;;
+  color: #FF512F;
 }
 
 dd {
@@ -272,8 +273,6 @@ dl {
 .recipeBottom {
   display: flex;
   flex-direction: row;
-  justify-content:
-
 }
 
 .recipeBottomLeft {
@@ -353,4 +352,19 @@ dl {
    #modal-textbox > h1, #modal-textbox2 > h1, #modal-textbox3 > h1 {
      font-size: 1.5em;
    }
+   .recipeBottom {
+     flex-direction: column;
+   }
+
+   .recipeBottomLeft > p {
+     text-align: center;
+     font-size: 2em;
+     padding-left: 1.5em;
+   }
+
+   .recipeBottomRight > p {
+     font-size: 1em;
+     padding-top: 1em;
+   }
+
  }
