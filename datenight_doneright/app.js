@@ -15,7 +15,7 @@ $( () => {
   const $closeBtn3 = $('#close3');
 
 
-  const allComedy = ["http://www.omdbapi.com/?t=booksmart&apikey=863b543e", "http://www.omdbapi.com/?t=sword_of_trust&apikey=863b543e", "http://www.omdbapi.com/?t=stan_&_ollie&apikey=863b543e", "http://www.omdbapi.com/?t=always_be_my_maybe&apikey=863b543e", "http://www.omdbapi.com/?t=wild_nights_with_emily&apikey=863b543e", " http://www.omdbapi.com/?t=plus_one&apikey=863b543e&y=2019"];
+  const allComedy = ["http://www.omdbapi.com/?t=booksmart&apikey=863b543e", "http://www.omdbapi.com/?t=long_shot&apikey=863b543e", "http://www.omdbapi.com/?t=stan_&_ollie&apikey=863b543e", "http://www.omdbapi.com/?t=always_be_my_maybe&apikey=863b543e", "http://www.omdbapi.com/?t=wild_nights_with_emily&apikey=863b543e", " http://www.omdbapi.com/?t=plus_one&apikey=863b543e&y=2019"];
 
   const allDrama = ["http://www.omdbapi.com/?t=the_farewell&apikey=863b543e&y=2019", " http://www.omdbapi.com/?t=APOLLO_11&apikey=863b543e&y=2019", "http://www.omdbapi.com/?t=THE_AFTERMATH&apikey=863b543e&y=2019", "http://www.omdbapi.com/?t=THE_LION_KING&apikey=863b543e&y=2019", "http://www.omdbapi.com/?t=THE_SOUVENIR&apikey=863b543e&y=2019", "http://www.omdbapi.com/?t=GLASS&apikey=863b543e&y=2019"];
 
