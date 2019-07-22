@@ -11,11 +11,14 @@ h1 {
   margin: 0;
   font-size: 5em;
   color: ghostwhite;
+  /* color: #DED0D8; */
 }
 
 h2 {
   font-family: 'League Script', cursive;
   font-size: 2.5em;
+  color: #DED0D8;
+  font-weight: bolder;
 
 }
 
@@ -155,7 +158,7 @@ dd > img {
   text-align: center;
   padding-bottom: 0.5em;
   margin: 0;
-  color: ghostwhite;
+  color: #DED0D8;
 }
 
 .recipe1topRight > a, .recipe2topRight > a {
@@ -239,7 +242,6 @@ dl {
   display: flex;
   flex-direction: row;
   align-items: center;
-  /* background: ghostwhite; */
 }
 
 .poster {
@@ -256,6 +258,16 @@ dl {
   font-size: 1.5em;
 }
 
+.recipeIntro {
+  background: ghostwhite;
+}
+
+.recipeIntro > h1 {
+  color: #EA277A;
+  padding-top: 0.5em;
+  font-size: 3em;
+}
+
 .recipeBottom {
   display: flex;
   flex-direction: row;
@@ -265,10 +277,50 @@ dl {
 
 .recipeBottomLeft {
   align-self: flex-start;
-  border: 1px dotted ghostwhite;
+  border: 2px dotted ghostwhite;
 }
 
 .recipeBottomRight {
-  align-self: flex-end;
+  align-self: center;
+  justify-content: center;
   padding-left: 2em;
 }
+
+ @media (max-width: 600px) {
+   h1 {
+     font-size: 3em;
+     text-align: center;
+   }
+   h2 {
+     font-size: 2em;
+   }
+   p {
+     font-size: 1em;
+     text-align: center;
+     padding-right: 2em;
+   }
+
+   .banner, .bannerRight {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+   }
+   .banner > img {
+     align-self: center;
+     width: 75%;
+   }
+   .comedyH1 {
+     font-size: 2em;
+   }
+   .allMovieData {
+     flex-direction: column;
+     justify-content:
+   }
+   .poster {
+     align-self: center;
+   }
+   .recipeIntro > h1 {
+     font-size: 2em;
+   }
+ }
