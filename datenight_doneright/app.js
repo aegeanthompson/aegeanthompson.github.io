@@ -93,6 +93,7 @@ const randomNumFood = () => {
   $('#comedy').on('click', (event) => {
     $('.container').hide();
     $(".comedy").show();
+    $('#modal3').hide();
     $('.comedyH1').css("display", "block");
     $(allFood[randomNumFood()]).css("display", "block");
 
@@ -118,6 +119,7 @@ const randomNumFood = () => {
   $('#drama').on('click', (event) => {
     $('.container').hide();
     $(".comedy").show();
+    $('#modal3').hide();
     $('.comedyH1').css("display", "block");
     $(allFood[randomNumFood()]).css("display", "block");
 
@@ -144,6 +146,7 @@ const randomNumFood = () => {
     $('.container').hide();
     $(".comedy").show();
     $('.comedyH1').css("display", "block");
+    $('#modal3').hide();
     $(allFood[randomNumFood()]).css("display", "block");
 
     $.ajax({
@@ -169,7 +172,7 @@ const randomNumFood = () => {
     $('.container').hide();
     $(".comedy").show();
     $('.comedyH1').css("display", "block");
-    // $('#$modal3').hide();
+    $('#modal3').hide();
     $(allFood[randomNumFood()]).css("display", "block");
 
     $.ajax({
