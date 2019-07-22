@@ -14,5 +14,6 @@ The live link to my site is: https://aegeanthompson.github.io/datenight_donerigh
 
 I will be adding in the options/layout for "out" and "something else" at a later time. 
 
-In the future I will pull from an API that allows you to pull all results from a given year, genre, etc. The OMDB API pull has to include a title or ID to a specific movie, so I wasn't able to use it in that way. 
+In the future I will pull from an API that allows you to pull all movie results from a given year, genre, etc. The OMDB API pull has to include a title or ID to a specific movie, so I wasn't able to use it in that way. 
 
+I'd like to do the same for the recipes section by adding a Recipe API. 
