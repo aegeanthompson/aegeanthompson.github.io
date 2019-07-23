@@ -23,14 +23,14 @@ $( () => {
 
   const allScary = ["http://www.omdbapi.com/?t=US&apikey=863b543e&y=2019", "http://www.omdbapi.com/?t=crawl&apikey=863b543e&y=2019", "http://www.omdbapi.com/?t=child%27s_play&apikey=863b543e&y=2019", "http://www.omdbapi.com/?t=BRIGHTBURN&apikey=863b543e&y=2019", "http://www.omdbapi.com/?t=ANNABELLE_COMES_HOME&apikey=863b543e&y=2019", "http://www.omdbapi.com/?t=PET_SEMATARY&apikey=863b543e&y=2019"];
 
-  const allFood = [".recipe1", ".recipe2"];
+  const allFood = [".recipe1", ".recipe2", ".recipe3"];
 
 const randomNumMovies = () => {
   return Math.floor(Math.random() * Math.floor(6));
 }
 
 const randomNumFood = () => {
-  return Math.floor(Math.random() * Math.floor(2));
+  return Math.floor(Math.random() * Math.floor(3));
 }
 
   const openModal = () => {

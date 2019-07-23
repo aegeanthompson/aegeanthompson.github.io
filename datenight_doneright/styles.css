@@ -165,15 +165,15 @@ dd > img {
   padding-bottom: 0.5em;
 }
 
-.recipe1topRight > a, .recipe2topRight > a {
+.recipe1topRight > a, .recipe2topRight > a, .recipe3topRight > a {
   color: ghostwhite;
 }
 
-.recipeBottomLeft > a, .recipe2BottomLeft > a {
+.recipeBottomLeft > a, .recipe2BottomLeft > a, .recipe3BottomLeft > a {
   font-size: 1em;
 }
 
-.recipe1, .recipe2 {
+.recipe1, .recipe2, .recipe3 {
   display: flex;
   justify-content: center;
   flex-direction: row;
@@ -184,12 +184,12 @@ dd > img {
 }
 
 
-.recipe1 > p, .recipe2 > p  {
+.recipe1 > p, .recipe2 > p, .recipe3 > p  {
   padding: 2em;
   color: ghostwhite;
 }
 
-.recipe1top, .recipe2top  {
+.recipe1top, .recipe2top, .recipe3top  {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -199,24 +199,24 @@ dd > img {
 
 }
 
-.recipe1topRight > h2, .recipe2topRight > h2 {
+.recipe1topRight > h2, .recipe2topRight > h2, .recipe3topRight > h2 {
     font-size: 3em;
     color: ghostwhite;
 }
 
-.recipe1topRight > p, .recipe2topRight > p {
+.recipe1topRight > p, .recipe2topRight > p, .recipe3topRight > p {
     font-size: 1;
     color: ghostwhite;
 }
 
-.recipe1topRight, .recipe2topRight {
+.recipe1topRight, .recipe2topRight, .recipe3topRight {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
-.recipe1topRight > img, .recipe2topRight > img {
+.recipe1topRight > img, .recipe2topRight > img, .recipe3topRight > img {
   border-radius: 4em;
   width: 50%;
   padding-bottom: 1em;
@@ -273,29 +273,29 @@ dl {
   font-size: 3em;
 }
 
-.recipeBottom, .recipe2Bottom {
+.recipeBottom, .recipe2Bottom, .recipe3Bottom {
   display: flex;
   flex-direction: row;
 }
 
-.recipeBottomLeft, .recipe2BottomLeft {
+.recipeBottomLeft, .recipe2BottomLeft, .recipe3BottomLeft {
   align-self: flex-start;
   border: 2px dotted ghostwhite;
 }
 
-.recipeBottomRight, .recipe2BottomRight {
+.recipeBottomRight, .recipe2BottomRight, .recipe3BottomRight {
   align-self: center;
   justify-content: center;
   padding-left: 2em;
 }
 
-.recipeBottomLeft > p, .recipe2BottomLeft > p {
+.recipeBottomLeft > p, .recipe2BottomLeft > p, .recipe3BottomLeft > p {
   text-align: center;
   font-size: 1.5em;
   padding-left: 1.5em;
 }
 
-.recipeBottomRight > p, .recipe2BottomRight > p {
+.recipeBottomRight > p, .recipe2BottomRight > p, .recipe3BottomRight > p {
   font-size: 2em;
   padding-top: 1em;
 }
@@ -355,33 +355,33 @@ dl {
    .movieDetails {
      text-align: center;
    }
-   .recipe1topRight > h2, .recipe2topRight > h2 {
+   .recipe1topRight > h2, .recipe2topRight > h2, .recipe3topRight > h2 {
      font-size: 2em;
    }
-   .recipeBottomLeft > img, .recipe2BottomLeft > img {
+   .recipeBottomLeft > img, .recipe2BottomLeft > img, .recipe3BottomLeft > img {
      width: 100%;
    }
-   .recipeBottomLeft > a, .recipe2BottomLeft > a {
+   .recipeBottomLeft > a, .recipe2BottomLeft > a, .recipe3BottomLeft > a {
      font-size: 2em;
    }
-   .recipeBottomLeft, .recipe2BottomLeft {
+   .recipeBottomLeft, .recipe2BottomLeft, .recipe3BottomLeft {
      text-align: center;
      font-size: 0.5em;
    }
    #modal-textbox > h1, #modal-textbox2 > h1, #modal-textbox3 > h1 {
      font-size: 1.5em;
    }
-   .recipeBottom, .recipe2Bottom {
+   .recipeBottom, .recipe2Bottom, .recipe3Bottom {
      flex-direction: column;
    }
 
-   .recipeBottomLeft > p, .recipe2BottomLeft > p {
+   .recipeBottomLeft > p, .recipe2BottomLeft > p, .recipe3BottomLeft > p {
      text-align: center;
      font-size: 2em;
      padding-left: 1.5em;
    }
 
-   .recipeBottomRight > p, .recipe2BottomRight > p {
+   .recipeBottomRight > p, .recipe2BottomRight > p, .recipe3BottomRight > p {
      font-size: 1em;
      padding-top: 1em;
    }
