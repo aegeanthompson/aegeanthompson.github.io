@@ -15,13 +15,13 @@ $( () => {
   const $closeBtn3 = $('#close3');
 
 
-  const allComedy = ["http://www.omdbapi.com/?t=booksmart&apikey=863b543e", "http://www.omdbapi.com/?t=long_shot&apikey=863b543e", "http://www.omdbapi.com/?t=stan_&_ollie&apikey=863b543e", "http://www.omdbapi.com/?t=always_be_my_maybe&apikey=863b543e", "http://www.omdbapi.com/?t=wild_nights_with_emily&apikey=863b543e", " http://www.omdbapi.com/?t=plus_one&apikey=863b543e&y=2019"];
+  const allComedy = ["https://www.omdbapi.com/?t=booksmart&apikey=863b543e", "https://www.omdbapi.com/?t=long_shot&apikey=863b543e", "https://www.omdbapi.com/?t=stan_&_ollie&apikey=863b543e", "https://www.omdbapi.com/?t=always_be_my_maybe&apikey=863b543e", "https://www.omdbapi.com/?t=wild_nights_with_emily&apikey=863b543e", " https://www.omdbapi.com/?t=plus_one&apikey=863b543e&y=2019"];
 
-  const allDrama = ["http://www.omdbapi.com/?t=the_farewell&apikey=863b543e&y=2019", " http://www.omdbapi.com/?t=APOLLO_11&apikey=863b543e&y=2019", "http://www.omdbapi.com/?t=THE_AFTERMATH&apikey=863b543e&y=2019", "http://www.omdbapi.com/?t=THE_LION_KING&apikey=863b543e&y=2019", "http://www.omdbapi.com/?t=THE_SOUVENIR&apikey=863b543e&y=2019", "http://www.omdbapi.com/?t=GLASS&apikey=863b543e&y=2019"];
+  const allDrama = ["https://www.omdbapi.com/?t=the_farewell&apikey=863b543e&y=2019", " https://www.omdbapi.com/?t=APOLLO_11&apikey=863b543e&y=2019", "https://www.omdbapi.com/?t=THE_AFTERMATH&apikey=863b543e&y=2019", "https://www.omdbapi.com/?t=THE_LION_KING&apikey=863b543e&y=2019", "https://www.omdbapi.com/?t=THE_SOUVENIR&apikey=863b543e&y=2019", "https://www.omdbapi.com/?t=GLASS&apikey=863b543e&y=2019"];
 
-  const allAction = ["http://www.omdbapi.com/?t=avengers_endgame&apikey=863b543e&y=2019", "http://www.omdbapi.com/?t=spider_man_far_from_home&apikey=863b543e&y=2019", "http://www.omdbapi.com/?t=ALITA_BATTLE_ANGEL&apikey=863b543e&y=2019", "http://www.omdbapi.com/?t=CAPTAIN_MARVEL&apikey=863b543e&y=2019", "http://www.omdbapi.com/?t=JOHN_WICK_CHAPTER_3&apikey=863b543e&y=2019", "http://www.omdbapi.com/?t=COLD_PURSUIT&apikey=863b543e&y=2019"];
+  const allAction = ["https://www.omdbapi.com/?t=avengers_endgame&apikey=863b543e&y=2019", "https://www.omdbapi.com/?t=spider_man_far_from_home&apikey=863b543e&y=2019", "https://www.omdbapi.com/?t=ALITA_BATTLE_ANGEL&apikey=863b543e&y=2019", "https://www.omdbapi.com/?t=CAPTAIN_MARVEL&apikey=863b543e&y=2019", "https://www.omdbapi.com/?t=JOHN_WICK_CHAPTER_3&apikey=863b543e&y=2019", "https://www.omdbapi.com/?t=COLD_PURSUIT&apikey=863b543e&y=2019"];
 
-  const allScary = ["http://www.omdbapi.com/?t=US&apikey=863b543e&y=2019", "http://www.omdbapi.com/?t=crawl&apikey=863b543e&y=2019", "http://www.omdbapi.com/?t=child%27s_play&apikey=863b543e&y=2019", "http://www.omdbapi.com/?t=BRIGHTBURN&apikey=863b543e&y=2019", "http://www.omdbapi.com/?t=ANNABELLE_COMES_HOME&apikey=863b543e&y=2019", "http://www.omdbapi.com/?t=PET_SEMATARY&apikey=863b543e&y=2019"];
+  const allScary = ["https://www.omdbapi.com/?t=US&apikey=863b543e&y=2019", "https://www.omdbapi.com/?t=crawl&apikey=863b543e&y=2019", "https://www.omdbapi.com/?t=child%27s_play&apikey=863b543e&y=2019", "https://www.omdbapi.com/?t=BRIGHTBURN&apikey=863b543e&y=2019", "https://www.omdbapi.com/?t=ANNABELLE_COMES_HOME&apikey=863b543e&y=2019", "https://www.omdbapi.com/?t=PET_SEMATARY&apikey=863b543e&y=2019"];
 
   const allFood = [".recipe1", ".recipe2", ".recipe3"];
 
