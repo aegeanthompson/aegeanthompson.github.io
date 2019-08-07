@@ -91,6 +91,10 @@ const randomNumFood = () => {
    window.location = "https://quiet-ocean-90720.herokuapp.com/activities/5d49a7783d38c616fbe30543"
 });
 
+  $('#buttonOut').click(function() {
+   window.location = "https://quiet-ocean-90720.herokuapp.com/activities/5d49a6b463008a16f37f7c12"
+  });
+
 
   $('#comedy').on('click', (event) => {
     $('.container').hide();
