@@ -87,7 +87,9 @@ const randomNumFood = () => {
 
   $closeBtn3.on('click', closeModal3);
 
-
+  $('.buttonElse').click(function() {
+   window.location = "https://quiet-ocean-90720.herokuapp.com/activities/5d49a7783d38c616fbe30543"
+});
 
 
   $('#comedy').on('click', (event) => {
